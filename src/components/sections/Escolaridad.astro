@@ -1,0 +1,21 @@
+---
+import Section from "@/components/Section.astro";
+---
+
+<Section>
+  <a href="/Escolaridad4to.pdf" download="EscolaridadAgustinTorres.pdf">
+    <h1>Escolaridad</h1>
+  </a>
+  <p>Descarga mi escolaridad y ve que materias he cursado.</p>
+</Section>
+
+<style>
+    a :hover{
+        text-decoration: underline;
+    }
+  @media print {
+    a, p {
+      display: none;
+    }
+  }
+</style>
