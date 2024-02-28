@@ -12,8 +12,8 @@ import Section from "@/components/Section.astro";
             <article>
               <header>
                 <div>
-                  <a href="/StatementOfResult.pdf" download="CertificadoFCEAgustinTorres.pdf"><h3>{language}</h3></a>
                   {language === "Inglés" && (
+                    <a href="/StatementOfResult.pdf" download="CertificadoFCEAgustinTorres.pdf"><h3>{language}</h3></a>
                     
                     <img
                       alt="United States"
@@ -22,6 +22,7 @@ import Section from "@/components/Section.astro";
                     />
                   )}
                   {language === "Español" && (
+                    <h3>{language}</h3>
                     <img
                       alt="United States"
                       src="http://purecatamphetamine.github.io/country-flag-icons/3x2/UY.svg"
