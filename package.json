@@ -10,10 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.10",
-    "@astrojs/tailwind": "^5.1.0",
-    "@types/react": "^18.2.60",
-    "@types/react-dom": "^18.2.19",
     "astro": "^4.4.5",
     "country-flag-icons": "^1.5.9",
     "ninja-keys": "^1.2.2"
