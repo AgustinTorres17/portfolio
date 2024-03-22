@@ -3,9 +3,14 @@ import Section from "../Section.astro";
 
 import {basics} from "@cv"
 
+import {basicsEN} from "@cv-en"
+
 const {summary} = basics
+
+const {summaryEN} = basicsEN
 ---
 
-<Section title="Sobre mí">
-    <p>{summary}</p>
+<Section title="Sobre mí" titleEN="About me">
+    <p class="es">{summary}</p>
+    <p class="en hide">{summaryEN}</p>
 </Section>

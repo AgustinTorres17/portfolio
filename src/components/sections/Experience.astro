@@ -2,12 +2,40 @@
 import Section from "../Section.astro";
 
 import { work } from "@cv";
+
+import {workEN} from "@cv-en";
 ---
 
-<Section title="Experiencia Laboral">
-  <ul>
+<Section title="Experiencia Laboral" titleEN="Work Experience">
+  <ul class="es">
     {
       work.map(({ name, startDate, endDate, position, summary }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Presente";
+        const period = `${startYear} - ${endYear}`;
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                  <p>{position}</p>
+                </div>
+                <time>{period}</time>
+              </header>
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <ul class="en hide">
+    {
+      workEN.map(({ name, startDate, endDate, position, summary }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Present";

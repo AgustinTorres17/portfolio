@@ -1,12 +1,64 @@
 ---
 import Section from "../Section.astro";
 import { education } from "@cv";
+
+import {educationEN} from "@cv-en";
+
 ---
 
-<Section title="Formación Académica">
-  <ul>
+<Section title="Formación Académica" titleEN="Education">
+  <ul class="es">
     {
       education.map(
+        ({
+          institution,
+          url,
+          area,
+          studyType,
+          startDate,
+          endDate,
+          score,
+          courses,
+        }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Presente";
+          const period = `${startYear} - ${endYear}`;
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <a href={url} target="_blank">
+                      <h3>
+                        {institution}
+                        </h3>
+                    </a>
+                    <h4>{`${area} - ${studyType}`}</h4>
+                    <p class="es">{`Promedio: ${score}`}</p>
+                  </div>
+                  <time>{period}</time>
+                </header>
+                <footer>
+                    {courses && (
+                      <h3>Cursos destacados</h3>
+                    <ul>
+                      {courses.map((course) => (
+                        <p>{course}</p>
+                      ))}
+                    </ul>
+                  )}
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
+  <ul class="hide en">
+    {
+      educationEN.map(
         ({
           institution,
           url,
@@ -32,7 +84,7 @@ import { education } from "@cv";
                         </h3>
                     </a>
                     <h4>{`${area} - ${studyType}`}</h4>
-                    <p>{`Promedio: ${score}`}</p>
+                    <p>{`Average: ${score}`}</p>
                   </div>
                   <time>{period}</time>
                 </header>

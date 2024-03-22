@@ -1,46 +1,47 @@
 {
-    "basics": {
-      "name": "Agustín Torres Mari",
-      "label": "Estudiante de Ingeniería en Computación en la Facultad de Ingeniería de la UDELAR",
-      "image": "/agus.webp",
-      "email": "agustintorres1701@gmail.com",
-      "phone": "+598 94893533",
-      "url": "https://midu.dev",
-      "summary": "Soy un estudiante de 4to año de Ingeniería en Computación en la Facultad de Ingeniería - UDELAR en busca de mi primera oportunidad laboral. Durante mi tiempo en la universidad, he realizado varias materias como Arquitectura y Redes de Computadoras, Sistemas Operativos, Programación 1, 2, 3 y 4, Taller de Programación, entre otras. En estas materias he aprendido conceptos como la Programación Orientada a Objetos, Web Services y Desarrollo Full-Stack. También he realizado cursos de inglés de Cambridge, entre ellos el más destacable y avanzado es el FCE (First Certificate in English). También he llevado a cabo varios proyectos personales que han involucrado el uso de tecnologías de actuales.Estos proyectos han abarcado una amplia gama de áreas, incluidas React, JavaScript, TailwindCSS, Java, SpringBoot, PostgreSQL. A través de estas experiencias, he adquirido habilidades prácticas y conocimientos sólidos en el uso de tecnologías modernas y estoy ansioso por aplicarlos en un entorno profesional.",
-      "location": {
-        "address": "",
-        "postalCode": "11600",
-        "city": "Montevideo",
-        "countryCode": "UY",
-        "region": "Uruguay"
-      },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "agustín-torres",
-          "url": "https://linkedin.com/in/agustín-torres"
-        },
-        {
-          "network": "GitHub",
-          "username": "AgustinTorres17",
-          "url": "https://github.com/AgustinTorres17"
-        }
-      ]
+  "basics": {
+    "name": "Agustín Torres Mari",
+    "label": "Estudiante de Ingeniería en Computación en la Facultad de Ingeniería de la UDELAR",
+    "image": "/agus.webp",
+    "email": "agustintorres1701@gmail.com",
+    "phone": "+598 94893533",
+    "url": "https://agustin-torres.netlify.app/",
+    "summary": "Soy un estudiante de 4to año de Ingeniería en Computación en la Facultad de Ingeniería - UDELAR en busca de mi primera oportunidad laboral. Durante mi tiempo en la universidad, he realizado varias materias como Arquitectura y Redes de Computadoras, Sistemas Operativos, Programación 1, 2, 3 y 4, Taller de Programación, entre otras. En estas materias he aprendido conceptos como la Programación Orientada a Objetos, Web Services y Desarrollo Full-Stack. También he realizado cursos de inglés de Cambridge, entre ellos el más destacable y avanzado es el FCE (First Certificate in English). También he llevado a cabo varios proyectos personales que han involucrado el uso de tecnologías de actuales.Estos proyectos han abarcado una amplia gama de áreas, incluidas React, JavaScript, TailwindCSS, Java, SpringBoot, PostgreSQL. A través de estas experiencias, he adquirido habilidades prácticas y conocimientos sólidos en el uso de tecnologías modernas y estoy ansioso por aplicarlos en un entorno profesional.",
+    "location": {
+      "address": "",
+      "postalCode": "11600",
+      "city": "Montevideo",
+      "countryCode": "UY",
+      "region": "Uruguay"
     },
-    "work": [
+    "profiles": [
       {
-        "name": "En busca de mi primer trabajo",
-        "position": "",
-        "url": "",
-        "startDate": "01-17-2024",
-        "endDate": null,
-        "summary": "Estoy en busca de mi primer trabajo como desarrollador. Me apasiona el desarrollo web tanto la parte FrontEnd como la parte BackEnd. Busco una compañía dónde pueda crecer y aprender.",
-        "highlights": [
-          "Started the company"
-        ]
+        "network": "LinkedIn",
+        "username": "agustín-torres",
+        "url": "https://linkedin.com/in/agustín-torres"
+      },
+      {
+        "network": "GitHub",
+        "username": "AgustinTorres17",
+        "url": "https://github.com/AgustinTorres17"
       }
-    ],
-    "education": [{
+    ]
+  },
+
+  "work": [
+    {
+      "name": "En busca de mi primer trabajo",
+      "position": "",
+      "url": "",
+      "startDate": "01-17-2024",
+      "endDate": null,
+      "summary": "Estoy en busca de mi primer trabajo como desarrollador. Me apasiona el desarrollo web tanto la parte FrontEnd como la parte BackEnd. Busco una compañía dónde pueda crecer y aprender.",
+      "highlights": ["Started the company"]
+    }
+  ],
+
+  "education": [
+    {
       "institution": "Facultad de Ingeniería - Universidad de la República",
       "url": "https://www.fing.edu.uy/",
       "area": "Ingeniero en Computación",
@@ -66,152 +67,175 @@
       "score": "11",
       "courses": null
     }
-    
   ],
-    "awards": [{
+
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [
-      {
-        "name": "HTML",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
-      },
-      {
-        "name": "CSS",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "NodeJS",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "PostgreSQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Java",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Backend", "Java", "Servidor"
-        ]
-      },
-      {
-        "name": "C/C++",
-        "level": "Intermedio",
-        "keywords": [
-          "Backend", "C", "C++", "Servidor"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "Español",
-        "fluency": "Nativo"
-      },
-      {
-        "language": "Inglés",
-        "fluency": "Avanzado"
-      }
-    ],
-    "interests": [{
-      "name": "Wildlife",
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "level-en": "Advanced",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
-    }],
-    "references": [{
+    },
+    {
+      "name": "NodeJS",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermedio",
+      "level-en": "Intermediate",
+      "keywords": ["Desarrollo Web", "Backend", "Java", "Servidor"]
+    },
+    {
+      "name": "C/C++",
+      "level": "Intermedio",
+      "level-en": "Intermediate",
+      "keywords": ["Backend", "C", "C++", "Servidor"]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "level-en": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [
-      {
-        "name": "Blogify",
-        "isActive": true,
-        "description": "Red social con funcionalidades como publicar y seguir a otros usuarios",
-        "highlights": [
-          "React",
-          "Java",
-          "En desarrollo",
-          "PostgreSQL",
-          "TailwindCSS",
-          "SpringBoot"
-        ],
-        "url": "https://blogify-frontend-one.vercel.app/"
-      },
-      {
-        "name": "Peliculeando",
-        "isActive": true,
-        "description": "Buscador de peliculas con información detallada de cada una",
-        "highlights": [
-          "Busca tu pelicula favorita",
-          "Multidioma",
-          "JavaScript & React"
-        ],
-        "url": "https://api-peliculas-react.vercel.app/"
-      }
-    ]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blogify",
+      "isActive": true,
+      "description": "Red social con funcionalidades como publicar y seguir a otros usuarios.",
+      "highlights": [
+        "React",
+        "Java",
+        "En desarrollo",
+        "PostgreSQL",
+        "TailwindCSS",
+        "SpringBoot"
+      ],
+      "url": "https://blogify-frontend-one.vercel.app/"
+    },
+    {
+      "name": "Peliculeando",
+      "isActive": true,
+      "description": "Buscador de peliculas con información detallada de cada una.",
+      "highlights": [
+        "Busca tu pelicula favorita",
+        "Multidioma",
+        "JavaScript & React"
+      ],
+      "url": "https://api-peliculas-react.vercel.app/"
+    },
+    {
+      "name": "Biblioteca",
+      "isActive": false,
+      "description": "Página simple para poder ver libros y acceder a su información, con el objetivo de mejorar en React.",
+      "highlights": [
+        "React",
+        "JavaScript",
+        "TailwindCSS",
+        "HTML"
+      ],
+      "url": "https://biblioteca-libros-bvyl.vercel.app/"
+    }
+  ]
+}

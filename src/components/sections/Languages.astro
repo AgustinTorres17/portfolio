@@ -1,10 +1,11 @@
 ---
 import { languages } from "@cv";
+import {languagesEN} from "@cv-en";
 import Section from "@/components/Section.astro";
 ---
 
-<Section title="Idiomas">
-  <ul>
+<Section title="Idiomas" titleEN="Languages">
+  <ul class="es">
     {
       languages.map(({ language, fluency }) => {
         return (
@@ -22,6 +23,40 @@ import Section from "@/components/Section.astro";
                     />
                   )}
                   {language === "Español" && (
+                    <h3>{language}</h3>
+                    <img
+                      alt="United States"
+                      src="http://purecatamphetamine.github.io/country-flag-icons/3x2/UY.svg"
+                    
+                    />
+                  )}
+                </div>
+                <p>{fluency}</p>
+              </header>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <ul class="en hide">
+    {
+      languagesEN.map(({ language, fluency }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  {language === "English" && (
+                    <a href="/StatementOfResult.pdf" download="CertificadoFCEAgustinTorres.pdf"><h3>{language}</h3></a>
+                    
+                    <img
+                      alt="United States"
+                      src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                      
+                    />
+                  )}
+                  {language === "Spanish" && (
                     <h3>{language}</h3>
                     <img
                       alt="United States"

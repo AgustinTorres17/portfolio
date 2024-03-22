@@ -1,0 +1,167 @@
+{
+  "basicsEN": {
+    "nameEN": "Agustín Torres Mari",
+    "labelEN": "Computer Engineering Student at the Faculty of Engineering of the UDELAR",
+    "summaryEN": "I'm a 4th year Computer Engineering student at the Faculty of Engineering - UDELAR looking for my first job opportunity. During my time at the university, I have taken several subjects such as Computer Architecture and Networks, Operating Systems, Programming 1, 2, 3 and 4, Programming Workshop, among others. In these subjects I have learned concepts such as Object Oriented Programming, Web Services and Full-Stack Development. I have also taken English courses from Cambridge, among them the most notable and advanced is the FCE (First Certificate in English). I have also carried out several personal projects that have involved the use of current technologies. These projects have covered a wide range of areas, including React, JavaScript, TailwindCSS, Java, SpringBoot, PostgreSQL. Through these experiences, I have acquired practical skills and solid knowledge in the use of modern technologies and I am eager to apply them in a professional environment."
+  },
+  "educationEN": [
+    {
+      "institution": "Faculty of Engineering - Universidad de la República",
+      "url": "https://www.fing.edu.uy/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor Degree",
+      "startDate": "2021-03-01",
+      "endDate": null,
+      "score": "7.1",
+      "courses": [
+        "Computer Architecture",
+        "Operating Systems",
+        "Computer Networks",
+        "Programming 1, 2, 3 and 4",
+        "Programming Workshop"
+      ]
+    },
+    {
+      "institution": "Liceo 10 - Carlos Vaz Ferreira",
+      "url": "https://liceo10.ces.edu.uy/",
+      "area": "Scientific Baccalaureate",
+      "studyType": "High School",
+      "startDate": "2019-03-01",
+      "endDate": "2020-11-13",
+      "score": "11",
+      "courses": null
+    }
+  ],
+  "skillsEN": [
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": ["Desarrollo Web", "Backend", "Java", "Servidor"]
+    },
+    {
+      "name": "C/C++",
+      "level": "Intermediate",
+      "keywords": ["Backend", "C", "C++", "Servidor"]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languagesEN": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projectsEN": [
+    {
+      "name": "Blogify",
+      "isActive": true,
+      "description": "Social network with features like posting and following other users.",
+      "highlights": [
+        "React",
+        "Java",
+        "In development",
+        "PostgreSQL",
+        "TailwindCSS",
+        "SpringBoot"
+      ],
+      "url": "https://blogify-frontend-one.vercel.app/"
+    },
+    {
+      "name": "Peliculeando",
+      "isActive": true,
+      "description": "Movie search engine with detailed information for each one.",
+      "highlights": [
+        "Search your favorite movie",
+        "Multilanguage",
+        "JavaScript & React"
+      ],
+      "url": "https://api-peliculas-react.vercel.app/"
+    },
+    {
+      "name": "Biblioteca",
+      "isActive": false,
+      "description": "Simple page to show a list of books with their respective information, focused on mastering React.",
+      "highlights": [
+        "React",
+        "JavaScript",
+        "TailwindCSS",
+        "HTML"
+      ],
+      "url": "https://biblioteca-libros-bvyl.vercel.app/"
+    }
+  ],
+  "workEN": [
+    {
+      "name": "Searching for my first job as a developer",
+      "position": "",
+      "url": "",
+      "startDate": "01-17-2024",
+      "endDate": null,
+      "summary": "I'm searching for my first job as a developer. I'm looking for a job that allows me to grow and learn new things. I'm open to new opportunities and challenges.",
+      "highlights": ["Started the company"]
+    }
+  ]
+}
