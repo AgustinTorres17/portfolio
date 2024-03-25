@@ -30,13 +30,13 @@
 
   "work": [
     {
-      "name": "En busca de mi primer trabajo",
-      "position": "",
-      "url": "",
-      "startDate": "01-17-2024",
+      "name": "SuiteDB",
+      "position": "FullStack Developer",
+      "url": "https://www.suitedb.com/#",
+      "startDate": "03-25-2024",
       "endDate": null,
-      "summary": "Estoy en busca de mi primer trabajo como desarrollador. Me apasiona el desarrollo web tanto la parte FrontEnd como la parte BackEnd. Busco una compañía dónde pueda crecer y aprender.",
-      "highlights": ["Started the company"]
+      "summary": "Desarrollador de aplicaciones web de e-commerce. Trabajo en equipo con otros desarrolladores para crear aplicaciones web de alta calidad y eficientes. Uso de tecnologías como NetSuite, JavaScript, HTML, CSS, .NET.",
+      "highlights": ["Empezando mi carrera laboral"]
     }
   ],
 

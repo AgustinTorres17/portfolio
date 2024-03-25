@@ -144,24 +144,19 @@
       "name": "Biblioteca",
       "isActive": false,
       "description": "Simple page to show a list of books with their respective information, focused on mastering React.",
-      "highlights": [
-        "React",
-        "JavaScript",
-        "TailwindCSS",
-        "HTML"
-      ],
+      "highlights": ["React", "JavaScript", "TailwindCSS", "HTML"],
       "url": "https://biblioteca-libros-bvyl.vercel.app/"
     }
   ],
   "workEN": [
     {
-      "name": "Searching for my first job as a developer",
-      "position": "",
-      "url": "",
-      "startDate": "01-17-2024",
+      "name": "SuiteDB",
+      "position": "FullStack Developer",
+      "url": "https://www.suitedb.com/#",
+      "startDate": "03-25-2024",
       "endDate": null,
-      "summary": "I'm searching for my first job as a developer. I'm looking for a job that allows me to grow and learn new things. I'm open to new opportunities and challenges.",
-      "highlights": ["Started the company"]
+      "summary": "E-commerce web application developer. Collaborating with other developers to create high-quality and efficient web applications. Utilizing technologies such as NetSuite, JavaScript, HTML, CSS, and .NET.",
+      "highlights": ["Empezando mi carrera laboral"]
     }
   ]
 }
